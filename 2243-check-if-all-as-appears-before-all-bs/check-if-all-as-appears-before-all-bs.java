@@ -8,7 +8,7 @@ class Solution {
             if (s.charAt(i) == 'b') {
                 seenB = true;
             }
-
+               
             else if (s.charAt(i) == 'a' && seenB) {
                 return false;
             }
